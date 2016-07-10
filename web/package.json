@@ -1,0 +1,17 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dadi/web": "^1.6.8",
+    "dustjs-linkedin": "^2.7.2",
+    "moment": "^2.14.1",
+    "underscore": "^1.8.3"
+  }
+}
