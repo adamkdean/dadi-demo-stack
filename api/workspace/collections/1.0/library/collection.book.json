@@ -23,6 +23,7 @@
     "count": 40,
     "sort": "title",
     "sortOrder": 1,
-    "storeRevisions": false
+    "storeRevisions": false,
+    "compose": true
   }
 }
