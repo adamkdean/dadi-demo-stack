@@ -1,10 +1,9 @@
 {
   "datasource": {
-    "key": "books",
-    "name": "books datasource",
+    "key": "simple",
+    "name": "simple datasource",
     "source": {
-      "type": "remote",
-      "endpoint": "1.0/library/book"
+      "type": "simple"
 		},
     "caching": {
       "enabled": false,
@@ -17,6 +16,7 @@
     "fields": {},
     "filter": {},
     "requestParams": [
+      { "param": "test", "field": "test_id" }
     ]
   }
 }
