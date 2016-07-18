@@ -3,7 +3,7 @@
     "key": "books",
     "name": "books datasource",
     "source": {
-      "type": "remote",
+      "type": "api",
       "endpoint": "1.0/library/book"
 		},
     "caching": {

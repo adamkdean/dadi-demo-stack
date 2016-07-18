@@ -11,7 +11,8 @@
     "path": "/books"
   },
   "template": "books.dust",
-  "datasources": [    
+  "datasources": [
+    "books"
   ],
   "events": [
 
