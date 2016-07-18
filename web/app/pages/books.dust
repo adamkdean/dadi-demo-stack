@@ -6,9 +6,15 @@
 
 {<content}
 <main class="main">
-	<div class="page">
-		Books.
-	</div>
+  <div class="page">
+    <h1>Books</h1>
+    {?books.results}
+      {#books.results}
+        <li>{title} by {author.name}</li>
+      {/books.results}
+    {:else}
+      Empty shelves!
+    {/books.results}
+  </div>
 </main>
-
 {/content}
