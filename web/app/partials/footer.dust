@@ -1,9 +1,4 @@
-<footer class="delta mastfooter">
-	<div class="container bdr__bottom bdr__bottom--light-grey">
-
-	</div>
-	<div class="container">
-
-	</div>
+<footer>
+  <hr>
+  <small>{@contextDump/}</small>
 </footer>
-
