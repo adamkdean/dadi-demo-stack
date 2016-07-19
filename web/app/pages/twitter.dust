@@ -3,13 +3,12 @@
 {<content}
 
   <h2>Twitter datasource</h2>
-  TODO
-  <!-- {?films}
-    {#films}
-      <li>{title}, directed by {director} – Score: {score}</li>
-    {/films}
-  {:else}
-    No films to show!
-  {/films} -->
+  {?tweets}
+    {#tweets}
+      <li>{text} posted by {user.screen_name} at {created_at}</li>
+    {/tweets}
+  {:tweets}
+    No tweets available.
+  {/tweets}
 
 {/content}
