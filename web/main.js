@@ -1,1 +1,3 @@
-var app = require('@dadi/web')
+'use strict'
+
+const app = require('@dadi/web')
