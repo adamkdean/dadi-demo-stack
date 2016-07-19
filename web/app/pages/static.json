@@ -1,0 +1,18 @@
+{
+  "page": {
+    "name": "Static",
+    "description": "Static page.",
+    "language": "en"
+  },
+  "settings": {
+    "cache": false
+  },
+  "route": {
+    "path": "/static"
+  },
+  "datasources": [
+    "static"
+  ],
+  "events": [
+  ]
+}

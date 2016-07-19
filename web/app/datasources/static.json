@@ -1,7 +1,7 @@
 {
   "datasource":{
     "key":"films",
-    "name":"Films DS",
+    "name":"films datasource",
     "source":{
       "type":"static",
       "data":[
@@ -66,7 +66,7 @@
     "search":{
 
     },
-    "fields": [
+    "fields":[
       "_id",
       "title",
       "director",

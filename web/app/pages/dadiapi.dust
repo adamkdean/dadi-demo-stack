@@ -1,0 +1,14 @@
+{>layout/}
+
+{<content}
+
+  <h2>@dadi/api datasource</h2>
+  {?books.results}
+    {#books.results}
+      <li>{title} by {author.name}</li>
+    {/books.results}
+  {:else}
+    Empty shelves!
+  {/books.results}
+
+{/content}

@@ -1,17 +1,17 @@
 {
   "page": {
-    "name": "Test",
-    "description": "Test page.",
+    "name": "@dadi/api",
+    "description": "@dadi/api page.",
     "language": "en"
   },
   "settings": {
     "cache": true
   },
   "route": {
-    "path": "/test"
+    "path": "/dadiapi"
   },
   "datasources": [
-    "static"
+    "dadiapi"
   ],
   "events": [
   ]

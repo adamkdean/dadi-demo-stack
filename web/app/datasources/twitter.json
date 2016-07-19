@@ -1,0 +1,30 @@
+{
+  "datasource":{
+    "key":"tweets",
+    "name":"tweets datasource",
+    "source":{
+      "type":"twitter"
+    },
+    "caching":{
+      "enabled":false,
+      "ttl":1200
+    },
+    "paginate":true,
+    "count":10,
+    "sort":{
+      "_id":-1
+    },
+    "search":{
+
+    },
+    "fields":{
+
+    },
+    "filter":{
+
+    },
+    "requestParams":[
+
+    ]
+  }
+}

@@ -1,14 +1,8 @@
-<header class="header masthead">
-
-	<div class="container cf nav">
-		<h2 class="logo nav__logo"><a href="/">DADI Demo Stack</a></h2>
-
-		<ul class="nav__mains nav--dropdown">
-			<li>
-        <a id="nav-quick-books" href="/books">Books</a>
-			</li>
-		</ul>
-
-	</div>
+<header>
+  <a href="/"><h1>DADI Demo Stack</h1></a>
+  <p>
+    Datasource:&nbsp;
+    <a href="/dadiapi">@dadi/api</a>&nbsp;|&nbsp;
+    <a href="/static">static</a>&nbsp;|&nbsp;
+    <a href="/twitter">twitter</a>
 </header>
-
