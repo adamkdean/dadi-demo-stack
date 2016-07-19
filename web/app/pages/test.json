@@ -11,7 +11,7 @@
     "path": "/test"
   },
   "datasources": [
-    "simple"
+    "static"
   ],
   "events": [
   ]
