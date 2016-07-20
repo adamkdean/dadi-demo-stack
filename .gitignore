@@ -3,5 +3,4 @@ log
 .DS_Store
 *.log
 .wallet
-!cache/.gitkeep
 cache
