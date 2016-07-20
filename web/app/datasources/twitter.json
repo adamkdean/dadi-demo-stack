@@ -1,30 +1,32 @@
 {
-  "datasource":{
-    "key":"tweets",
-    "name":"tweets datasource",
-    "source":{
-      "type":"twitter"
+  "datasource": {
+    "key": "tweets",
+    "name": "tweets datasource",
+    "source": {
+      "type": "twitter",
+      "endpoint": "statuses/user_timeline"
     },
-    "caching":{
-      "enabled":false,
-      "ttl":1200
+    "caching": {
+      "enabled": true,
+      "ttl": 1200
     },
-    "paginate":true,
-    "count":10,
-    "sort":{
-      "_id":-1
+    "paginate": true,
+    "count": 5,
+    "sort": {
+      "_id": -1
     },
-    "search":{
-
+    "search": {},
+    "fields": {
+      "text": 1,
+      "user": 1,
+      "created_at": 1
     },
-    "fields":{
-
-    },
-    "filter":{
-
-    },
-    "requestParams":[
-
+    "filter": {},
+    "requestParams": [
+      {
+        "param": "screen_name",
+        "field": "screen_name"
+      }
     ]
   }
 }

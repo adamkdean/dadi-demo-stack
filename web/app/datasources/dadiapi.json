@@ -1,31 +1,23 @@
 {
-  "datasource":{
-    "key":"books",
-    "name":"books datasource",
-    "source":{
-      "type":"api",
-      "endpoint":"1.0/library/book"
+  "datasource": {
+    "key": "books",
+    "name": "books datasource",
+    "source": {
+      "type": "remote",
+      "endpoint": "1.0/library/book"
     },
-    "caching":{
-      "enabled":false,
-      "ttl":1200
+    "caching": {
+      "enabled": true,
+      "ttl": 1200
     },
-    "paginate":true,
-    "count":10,
-    "sort":{
-      "_id":-1
+    "paginate": true,
+    "count": 10,
+    "sort": {
+      "_id": -1
     },
-    "search":{
-
-    },
-    "fields":{
-
-    },
-    "filter":{
-
-    },
-    "requestParams":[
-
-    ]
+    "search": {},
+    "fields": {},
+    "filter": {},
+    "requestParams": []
   }
 }
