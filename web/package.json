@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "prestart": "mkdir -p cache/web",
     "start": "node main.js"
   },
   "author": "",
