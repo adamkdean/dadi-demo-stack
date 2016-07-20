@@ -8,7 +8,7 @@
     "cache": true
   },
   "route": {
-    "path": "/twitter"
+    "path": "/twitter/:screen_name?"
   },
   "datasources": [
     "twitter"
