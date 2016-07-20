@@ -26,9 +26,9 @@
   "caching": {
     "ttl": 300,
     "directory": {
-      "enabled": false,
+      "enabled": true,
       "path": "./cache/web/",
-      "extension": "html"
+      "extension": "dat"
     }
   },
   "paths": {
@@ -49,5 +49,6 @@
     "forceLowerCase": true
   },
   "debug": true,
+  "allowCachingInDebug": true,
   "allowJsonView": true
 }
