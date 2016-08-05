@@ -4,5 +4,6 @@
     Datasource:&nbsp;
     <a href="/dadiapi">@dadi/api</a>&nbsp;|&nbsp;
     <a href="/static">static</a>&nbsp;|&nbsp;
-    <a href="/twitter">twitter</a>
+    <a href="/twitter">twitter</a>&nbsp;|&nbsp;
+    <a href="/wordpress-posts">wordpress</a>
 </header>

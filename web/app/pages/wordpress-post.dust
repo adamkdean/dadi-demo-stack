@@ -1,0 +1,14 @@
+{>layout/}
+
+{<content}
+
+  <h2>WordPress post datasource</h2>
+  {#wordpress-post}
+    <div class="wordpress-blog-post">
+      <a href="/wordpress-post/{slug}"><h2>{title}</h2></a>
+      <h3>Posted at {date} by {author.name}</h3>
+      <pa>{content|s}</pa>
+    </div>
+  {/wordpress-post}
+
+{/content}

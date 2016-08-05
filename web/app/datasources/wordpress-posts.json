@@ -1,0 +1,31 @@
+{
+  "datasource": {
+    "key": "wordpress-posts",
+    "name": "WordPress posts datasource",
+    "source": {
+      "type": "wordpress",
+      "endpoint": "sites/neversettleblog.wordpress.com/posts/"
+    },
+    "caching": {
+      "enabled": true,
+      "ttl": 1200
+    },
+    "paginate": true,
+    "count": 5,
+    "sort": {
+      "_id": -1
+    },
+    "search": {},
+    "fields": {
+      "slug": 1,
+      "date": 1,
+      "title": 1,
+      "excerpt": 1,
+      "author": 1
+    },
+    "filter": {
+      "title": "First blog post"
+    },
+    "requestParams": []
+  }
+}

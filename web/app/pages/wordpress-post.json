@@ -1,0 +1,18 @@
+{
+  "page": {
+    "name": "WordPress post",
+    "description": "WordPress post page.",
+    "language": "en"
+  },
+  "settings": {
+    "cache": true
+  },
+  "route": {
+    "path": "/wordpress-post/:slug"
+  },
+  "datasources": [
+    "wordpress-post"
+  ],
+  "events": [
+  ]
+}

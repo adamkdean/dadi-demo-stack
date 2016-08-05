@@ -49,6 +49,6 @@
     "forceLowerCase": true
   },
   "debug": true,
-  "allowCachingInDebug": true,
+  "allowCachingInDebug": false,
   "allowJsonView": true
 }
