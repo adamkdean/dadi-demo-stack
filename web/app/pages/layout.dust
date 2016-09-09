@@ -4,30 +4,38 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 
-	<title>Demo Stack</title>
+  <title>Demo Stack</title>
 
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+  .wordpress-blog-post {
+    margin: 5px;
+    padding: 5px;
+    background: #eee;
+    border-bottom: 4px solid #ddd;
+  }
+  .wordpress-blog-post h2 {
+    margin: 0;
+  }
+  .wordpress-blog-post h3 {
+    font-size: 90%;
+    color: #333;
+    font-weight: normal;
+    font-style: italic;
+  }
+  </style>
 
-
-	<link rel="icon" type="image/png" href="{global.assetUrl}/png/0/0/0/0/0/0/0/0/0/aspectfit/0/0/0/0/0/0/public/img/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="{global.assetUrl}/png/0/0/0/0/0/0/0/0/0/aspectfit/0/0/0/0/0/0/public/img/favicon-16x16.png" sizes="16x16">
-
-	<link rel="stylesheet" type="text/css" href="{global.assetUrl}/css/0/public/css/main.min.css">
-	<script src="{global.assetUrl}/js/0/public/js/head.min.js"></script>
-
-	{+head}{/head}
+  {+head}{/head}
 </head>
-
 <body class="layout">
-	{>"partials/header"/}
+  {>"partials/header"/}
 
-	{+content}
-		This is the base content.
-	{/content}
+  {+content}
+    This is the base content.
+  {/content}
 
-	{>"partials/footer"/}
-
+  {>"partials/footer"/}
 </body>
 </html>

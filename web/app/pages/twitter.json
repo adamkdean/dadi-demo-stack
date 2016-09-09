@@ -1,20 +1,18 @@
 {
   "page": {
-    "name": "Books page",
-    "description": "A collection of books.",
+    "name": "Twitter",
+    "description": "Twitter page.",
     "language": "en"
   },
   "settings": {
     "cache": true
   },
   "route": {
-    "path": "/books"
+    "path": "/twitter/:screen_name?"
   },
-  "template": "books.dust",
   "datasources": [
-    "books"
+    "twitter"
   ],
   "events": [
-    
   ]
 }

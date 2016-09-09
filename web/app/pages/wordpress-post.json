@@ -1,16 +1,17 @@
 {
   "page": {
-    "name": "Index",
-    "description": "Index page.",
+    "name": "WordPress post",
+    "description": "WordPress post page.",
     "language": "en"
   },
   "settings": {
     "cache": true
   },
   "route": {
-    "path": "/"
+    "path": "/wordpress-post/:slug"
   },
   "datasources": [
+    "wordpress-post"
   ],
   "events": [
   ]

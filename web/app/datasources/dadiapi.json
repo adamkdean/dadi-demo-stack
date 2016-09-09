@@ -3,19 +3,21 @@
     "key": "books",
     "name": "books datasource",
     "source": {
+      "type": "remote",
       "endpoint": "1.0/library/book"
-		},
+    },
     "caching": {
-      "enabled": false,
+      "enabled": true,
       "ttl": 1200
     },
     "paginate": true,
     "count": 10,
-    "sort": { "_id": -1 },
+    "sort": {
+      "_id": -1
+    },
     "search": {},
     "fields": {},
     "filter": {},
-    "requestParams": [
-    ]
+    "requestParams": []
   }
 }

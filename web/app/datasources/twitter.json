@@ -1,0 +1,32 @@
+{
+  "datasource": {
+    "key": "tweets",
+    "name": "tweets datasource",
+    "source": {
+      "type": "twitter",
+      "endpoint": "statuses/user_timeline"
+    },
+    "caching": {
+      "enabled": true,
+      "ttl": 1200
+    },
+    "paginate": true,
+    "count": 5,
+    "sort": {
+      "_id": -1
+    },
+    "search": {},
+    "fields": {
+      "text": 1,
+      "user": 1,
+      "created_at": 1
+    },
+    "filter": {},
+    "requestParams": [
+      {
+        "param": "screen_name",
+        "field": "screen_name"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{>layout/}
+
+{<content}
+
+  <h2>Twitter datasource</h2>
+  {?tweets}
+    {#tweets}
+      <li>{text} posted by {user.screen_name} at {created_at}</li>
+    {/tweets}
+  {:tweets}
+    No tweets available.
+  {/tweets}
+
+{/content}
