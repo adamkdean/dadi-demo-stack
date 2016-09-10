@@ -1,0 +1,18 @@
+{
+  "page": {
+    "name": "RSS feed",
+    "description": "RSS feed page.",
+    "language": "en"
+  },
+  "settings": {
+    "cache": true
+  },
+  "route": {
+    "path": "/rss"
+  },
+  "datasources": [
+    "rss"
+  ],
+  "events": [
+  ]
+}

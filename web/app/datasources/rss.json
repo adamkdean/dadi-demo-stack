@@ -1,0 +1,24 @@
+{
+  "datasource": {
+    "key": "rss",
+    "name": "rss datasource",
+    "source": {
+      "type": "rss",
+      "endpoint": "http://www.feedforall.com/sample.xml"
+    },
+    "caching": {
+      "enabled": false,
+      "ttl": 1200
+    },
+    "paginate": false,
+    "count": 5,
+    "sort": {
+      "_id": -1
+    },
+    "search": {},
+    "fields": {},
+    "filter": {},
+    "endpointParams": [],
+    "requestParams": []
+  }
+}

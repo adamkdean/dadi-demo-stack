@@ -1,0 +1,14 @@
+{>layout/}
+
+{<content}
+
+  <h2>RSS datasource</h2>
+  {?rss}
+    {#rss}
+      <li>{title} posted by {author} – <a href="#">{link}</a></li>
+    {/rss}
+  {:rss}
+    No tweets available.
+  {/rss}
+
+{/content}
