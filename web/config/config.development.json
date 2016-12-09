@@ -3,8 +3,19 @@
     "name": "Demo Stack - Web"
   },
   "server": {
-    "host": "127.0.0.1",
-    "port": 3001
+    "name": "Demo Stack - Web",
+    "http": {
+      "enabled": true,
+      "host": "127.0.0.1",
+      "port": 3001
+    },
+    "https": {
+      "enabled": true,
+      "host": "127.0.0.1",
+      "port": 443,
+      "sslPrivateKeyPath": "ssl/key.pem",
+      "sslCertificatePath": "ssl/cert.pem"
+    }
   },
   "api": {
     "host": "127.0.0.1",
